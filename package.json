@@ -1,0 +1,22 @@
+{
+  "name": "test-ws-server",
+  "version": "1.0.0",
+  "description": "Test server",
+  "main": "dist/src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/uuid": "^8.3.2",
+    "simple-json-db": "^2.0.0",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.7.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.0"
+  }
+}
